@@ -1,4 +1,4 @@
-# BP Limiting for RK Methods
+# Bound-preserving limiting for Runge-Kutta methods
 
 This repository contains the code to reproduce the results in "Bound-preserving convex limiting for high-order Runge-Kutta time discretizations of hyperbolic conservation laws" by D. Kuzmin, M. Quezada de Luna, D.I. Ketcheson and J. Grull. 
 
@@ -22,5 +22,3 @@ The code run\_problems.py calls functions inside time\_flux\_limiting.py to run 
 <li> LINEAR ADVECTION WITH NON-SMOOTH SOLUTION. This code produces the results in the second part of Section 5.2. </li>
 <li> NONLINEAR BURGERS AFTER SHOCK. This code produces the results in the second part of Section 5.3. </li>
 <li> NONLINEAR ONE DIM KPP. This code produces the results in Section 5.4. </li>
-
-
